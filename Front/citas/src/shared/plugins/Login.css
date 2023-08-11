@@ -1,0 +1,59 @@
+/* Estilos generales */
+.body-login {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#f5c395, #c28f60, #f5c395); /* Fondo degradado de verde */
+}
+
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    background-color: #795548;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 90%;
+}
+
+/* Tarjeta de inicio de sesión */
+.login-card {
+    flex: 1;
+    background-color: #795548;
+    color: #ffffff;
+    padding: 40px;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+    flex: 1;
+    padding: 20px 20px 40px 20px;
+    align-content: center
+}
+
+/* Logo */
+.login-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Botón de inicio de sesión */
+button {
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
